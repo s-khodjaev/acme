@@ -51,7 +51,6 @@ p {
   min-height: 80px;
   background-color: #35424a;
   color: #fff;
-  overflow: hidden;
   padding-top: 10px;
   border-bottom: #e8491d 4px solid;
 }
@@ -169,6 +168,64 @@ p {
   background-color: #444;
   color: #fff;
   margin-bottom: 15px;
+}
+
+/* Services */
+
+#services {
+  margin: 10px;
+}
+
+.info {
+  float: left;
+  width: 70%;
+}
+
+.info h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page {
+  background-color: #ddd;
+  padding: 30px;
+  margin: 10px 0;
+}
+
+.sidebar {
+  float: right;
+  width: 28%;
+  background-color: #444;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar input,
+.sidebar textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.sidebar textarea {
+  height: 200px;
+}
+
+.sidebar button {
+  background-color: #e8491d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  cursor: pointer;
 }
 
 /* Footer */
