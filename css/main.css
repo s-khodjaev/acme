@@ -1,0 +1,181 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  overflow: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.text-primary {
+  color: #e8491d;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Navigation */
+
+#navbar {
+  min-height: 80px;
+  background-color: #35424a;
+  color: #fff;
+  overflow: hidden;
+  padding-top: 10px;
+  border-bottom: #e8491d 4px solid;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 10px;
+}
+
+#navbar ul {
+  float: right;
+  list-style-type: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: thin;
+}
+
+/* Showcase */
+
+#showcase {
+  height: 400px;
+  background: url('../img/showcase.jpg') no-repeat center top/cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 50px;
+}
+
+#showcase .showcase-content p {
+  line-height: 1.5;
+}
+
+/* Newsletter */
+
+#newsletter {
+  background-color: #35424a;
+  color: #fff;
+  height: 80px;
+  padding: 20px;
+}
+
+#newsletter h2 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  padding: 10px;
+}
+
+#newsletter input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+#newsletter button {
+  width: 80px;
+  height: 30px;
+  background-color: #e8491d;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Boxes */
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  text-align: center;
+}
+
+.box img {
+  width: 80px;
+}
+
+/* About */
+
+#about {
+  height: 400px;
+  padding: 20px 10px;
+}
+
+#about .about-info {
+  float: left;
+  width: 70%;
+  padding: 15px 20px;
+}
+
+#about .about-info h2 {
+  text-align: center;
+}
+
+#about .sidebar {
+  float: right;
+  width: 30%;
+  padding: 40px 30px;
+  background-color: #444;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+
+#main-footer {
+  background-color: #e8491d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
